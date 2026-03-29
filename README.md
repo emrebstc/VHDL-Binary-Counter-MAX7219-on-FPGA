@@ -15,11 +15,11 @@ This project implements an 8-bit binary counter displayed on an 8-digit 7-segmen
 
 ## Connection Diagram
 ```text
-MAX7219      FPGA Pin (Tang Nano 9K)
--------      -----------------------
-DINPin                53
-CSPin                 51 
-CLKPin                35 
+MAX7219 Pin      FPGA Pin (Tang Nano 9K)
+-----------      -----------------------
+DIN                       53
+CS                        51 
+CLK                       35 
 ```
 ##  Resource Usage Summary
 ```text
